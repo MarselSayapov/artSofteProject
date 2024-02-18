@@ -13,7 +13,7 @@ public class ChatApiController
     /// <param name="userId">Required user id</param>
     /// <returns>Enumerable object that contains all incoming messages of this user</returns>
     /// <exception cref="NotImplementedException"></exception>
-    public async Task<IActionResult> GetAllIncomingUserMessages(uint userId)
+    public async Task<IActionResult> GetAllIncomingUserMessagesAsync(uint userId)
     {
         throw new NotImplementedException();
     }
@@ -23,7 +23,7 @@ public class ChatApiController
     /// <param name="userId">Required user id</param>
     /// <returns>Enumerable object that contains all outcoming messages of this user</returns>
     /// <exception cref="NotImplementedException"></exception>
-    public async Task<IActionResult> GetAllOutComingUserMessages(uint userId)
+    public async Task<IActionResult> GetAllOutComingUserMessagesAsync(uint userId)
     {
         throw new NotImplementedException();
     }
@@ -33,7 +33,7 @@ public class ChatApiController
     /// <param name="message">message with content and sender, recipient id</param>
     /// <returns>message to another user</returns>
     /// <exception cref="NotImplementedException"></exception>
-    public async Task<IActionResult> SendMessage(Message message)
+    public async Task<IActionResult> SendMessageAsync(Message message)
     {
         throw new NotImplementedException();
     }

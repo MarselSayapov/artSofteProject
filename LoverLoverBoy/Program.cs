@@ -24,14 +24,29 @@ app.MapControllers();
 
 app.Run();
 
+/// <summary>
+/// Message
+/// </summary>
 public class Message
 {
+    /// <summary>
+    /// message id
+    /// </summary>
     public uint Id { get; set; }
     
+    /// <summary>
+    /// message content
+    /// </summary>
     public string Content { get; set; }
     
+    /// <summary>
+    /// message sender id
+    /// </summary>
     public uint SenderId { get; set; }
     
+    /// <summary>
+    /// message recipient id
+    /// </summary>
     public uint RecipientId { get; set; }
 }
 
