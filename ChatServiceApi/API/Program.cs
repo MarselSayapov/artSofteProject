@@ -1,4 +1,5 @@
 using datalayer;
+using ExampleCore.TraceIdLogic;
 using LogicStartUp;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.TryAddLogic();
 builder.Services.TryAddDal();
 
+builder.Services.TryAddTraceId();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

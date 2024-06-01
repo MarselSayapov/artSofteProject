@@ -5,6 +5,6 @@ namespace Domain.Interfaces;
 public interface IUserRepository
 {
     Task<User> GetUserByIdAsync(uint id);
-
+    Task<User> CheckUserExist(uint id);
     Task<User[]> GetAllUsersAsync();
 }

@@ -30,4 +30,12 @@ public class UserController : ControllerBase
         var users = await _userService.GetAllUsersAsync();
         return Ok(users);
     }
+    
+    [HttpPost("exist")]
+    [ProducesResponseType(typeof(User),200)]
+    public async Task<IActionResult> CheckUserExistProfile([FromQuery] uint userId)
+    {
+        var res = await _userService.CheckUserExist(userId);
+        return Ok(userId);
+    }
 }

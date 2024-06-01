@@ -22,4 +22,10 @@ public class UserService : IUserService
     {
         return await _userRepository.GetAllUsersAsync();
     }
+    
+    public async Task<uint> CheckUserExist(uint userId)
+    {
+        var res = await _userRepository.CheckUserExist(userId);
+        return res.Id;
+    }
 }

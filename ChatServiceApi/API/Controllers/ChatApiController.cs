@@ -1,10 +1,7 @@
 ﻿using LogicStartUp.Messages.Interfaces;
 using LogicStartUp.Messages.Models;
-using LoverLoverBoy.Controllers.Messages;
-using LoverLoverBoy.Controllers.Messages.Responses;
 using Microsoft.AspNetCore.Mvc;
-
-namespace LoverLoverBoy.Controllers;
+namespace ChatServiceApi.Controllers;
 
 
 [ApiController]

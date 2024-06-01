@@ -19,6 +19,11 @@ public class UserRepository : IUserRepository
         return await _dbContext.Users.FindAsync(id);
     }
 
+    public async Task<User> CheckUserExist(uint id)
+    {
+        return await _dbContext.Users.FindAsync(id);
+    }
+
     public async Task<User[]> GetAllUsersAsync()
     {
         return await _dbContext.Users.ToArrayAsync();
