@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleCore", "..\Libs\ExampleCore\ExampleCore.csproj", "{FC4D3F43-7351-48B0-80C3-B3FA7DAE99F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfileConnectionLib", "..\Libs\ProfileConnectionLib\ProfileConnectionLib.csproj", "{2AFF3606-AF34-4617-8506-D0353A2B7032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FC4D3F43-7351-48B0-80C3-B3FA7DAE99F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4D3F43-7351-48B0-80C3-B3FA7DAE99F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4D3F43-7351-48B0-80C3-B3FA7DAE99F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFF3606-AF34-4617-8506-D0353A2B7032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFF3606-AF34-4617-8506-D0353A2B7032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFF3606-AF34-4617-8506-D0353A2B7032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFF3606-AF34-4617-8506-D0353A2B7032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

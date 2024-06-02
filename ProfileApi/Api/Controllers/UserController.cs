@@ -36,6 +36,6 @@ public class UserController : ControllerBase
     public async Task<IActionResult> CheckUserExistProfile([FromQuery] uint userId)
     {
         var res = await _userService.CheckUserExist(userId);
-        return Ok(userId);
+        return Ok(new {UserId = res});
     }
 }
